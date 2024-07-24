@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <div className="mx-32 ">
+   <div className="m-auto">
     <Header/>
     <Contentjs/>
    </div>
