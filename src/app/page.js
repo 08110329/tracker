@@ -1,13 +1,11 @@
+"use client";
+import { Login } from "@/components/Login";
 
-import { Contentjs } from "@/components/Contentjs";
-import { Header } from "@/components/Header";
-import Image from "next/image";
 
 export default function Home() {
   return (
-   <div className="m-auto">
-    <Header/>
-    <Contentjs/>
-   </div>
+    <div className="w-full m-auto  h-[100vh]">
+     <Login/>
+    </div>
   );
 }

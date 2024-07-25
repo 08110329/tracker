@@ -5,7 +5,7 @@ import { Card } from "./Card";
 
 export const Today = () => {
     return (
-        <div className="w-[1440px] m-auto grid gap-3">
+        <div className="w-full m-auto grid gap-3">
             <h1 className="text-base font-semibold">Today</h1>
             <div className="w-[894px] h-[64px] flex rounded-xl border border-[#E5E7EB] px-6 py-2 justify-between ">
              <div className="flex gap-4 items-center">

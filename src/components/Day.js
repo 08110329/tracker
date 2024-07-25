@@ -1,5 +1,4 @@
 import { Button } from "./ui/button";
-import { Carousel } from "./ui/carousel";
 import { ChevronDown } from "lucide-react";
 import { ChevronRight } from "lucide-react";
 import { ChevronLeft } from "lucide-react";
