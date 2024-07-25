@@ -61,8 +61,8 @@ export const Contentjs = () => {
   ];
   return (
     <div className="w-full h-100vh bg-gray-200">
-      <div className="w-fit m-auto flex gap-4  p-6">
-        <div className="py-6 px-4 bg-[#F9FAFB] border border-[#E5E7EB] grid gap-y-6 rounded-xl">
+      <div className="w-fit m-auto flex gap-4 p-6">
+        <div className="py-6 px-4 bg-slate-50 border border-[#d0d2d7] grid gap-y-6 rounded-xl">
           <div className="w-fit h-fit grid gap-y-6	">
             <h1 className="font-semibold text-2xl">Records</h1>
             <Button className="w-[250px] rounded-3xl bg-[#0166FF] gap-1">
@@ -129,7 +129,7 @@ export const Contentjs = () => {
                 defaultValue={[50]}
                 max={100}
                 step={1}
-                className="-[#0166FF]"
+                className=""
               ></Slider>
               <div className="flex justify-between">
                 <p>0</p>
@@ -138,11 +138,13 @@ export const Contentjs = () => {
             </div>
           </div>
         </div>
-        <div className="w-fit grid gap-6 bg-gray-200">
+        <div className="grid my-8">
           <Day />
-          <Lcard />
-          <Today />
-          <Yesterday />
+          <div className="w-fit grid gap-6 bg-gray-200">
+            <Lcard />
+            <Today />
+            <Yesterday />
+          </div>
         </div>
       </div>
     </div>
