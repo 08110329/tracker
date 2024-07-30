@@ -97,9 +97,6 @@ export const Contentjs = () => {
               <p className="text-[#d4d6d9] font-normal text-base">Clear</p>
             </div>
             <div className="grid gap-2">
-              {/* {categorie?.map((el, i)=>(
-            <Selectjs key={i} text={el.name}/>
-            ))} */}
               {categories?.map((el, index) => (
                 <Selectjs key={index} text={el.name} />
               ))}

@@ -11,7 +11,7 @@ export const SeTrigger = () => {
         <div className="">
               <Label htmlFor="framework">Category</Label>
               <Select className="w-full">
-                <SelectTrigger id="framework" >
+                <SelectTrigger id="framework" className="bg-[#F9FAFB]" >
                   <SelectValue placeholder="Choose" />
                 </SelectTrigger>
                 <SelectContent position="popper">
