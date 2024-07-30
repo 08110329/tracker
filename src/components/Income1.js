@@ -12,7 +12,9 @@ export const Income1 = () => {
                     <li>1’000’000</li>
                     <li>0</li>
                 </ul>
-                <div></div>
+                <div>
+                  
+                </div>
             </div>
             
           </div>

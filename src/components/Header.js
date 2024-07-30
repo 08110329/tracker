@@ -10,8 +10,7 @@ export const Header = () => {
       </div>
       <div className="flex gap-x-6">
         <Button className="bg-[#0166FF] rounded-3xl gap-x-1">
-          <p className="text-2xl font-normal">+</p>
-          <p className="text-base	font-normal	">Record</p>
+          <p className="text-base	font-normal	">+ Record</p>
         </Button>
         <img src="/Placeholder.png"/>
       </div>

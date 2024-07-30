@@ -11,6 +11,7 @@ import { Today } from "./Today";
 import { Yesterday } from "./Yesterday";
 import { Lcard } from "./Lcard";
 import { Day } from "@/components/Day";
+import { AddExpense } from "./AddExpense";
 
 export const Contentjs = () => {
   const categories = [
@@ -63,13 +64,7 @@ export const Contentjs = () => {
     <div className="w-full h-100vh bg-gray-200">
       <div className="w-fit m-auto flex gap-4 p-6">
         <div className="py-6 px-4 bg-slate-50 border border-[#d0d2d7] grid gap-y-6 rounded-xl">
-          <div className="w-fit h-fit grid gap-y-6	">
-            <h1 className="font-semibold text-2xl">Records</h1>
-            <Button className="w-[250px] rounded-3xl bg-[#0166FF] gap-1">
-              <p className="text-base	font-normal">+</p>
-              <p className="text-base	font-normal">Add</p>
-            </Button>
-          </div>
+          <AddExpense/>
           <div>
             <Input placeholder="Search"></Input>
           </div>

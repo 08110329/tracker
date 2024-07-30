@@ -10,25 +10,25 @@ export const LastRecord = () => {
     },
     {
         name: "Lending & Renting",
-        id: "0",
+        id: "1",
         desc: "3 hours ago",
         tag: "- 1,000₮"
       },
       {
         name: "Lending & Renting",
-        id: "0",
+        id: "2",
         desc: "3 hours ago",
         tag: "- 1,000₮"
       },
       {
         name: "Lending & Renting",
-        id: "0",
+        id: "3",
         desc: "3 hours ago",
         tag: "- 1,000₮"
       },
       {
         name: "Lending & Renting",
-        id: "0",
+        id: "4",
         desc: "3 hours ago",
         tag: "- 1,000₮"
       },
