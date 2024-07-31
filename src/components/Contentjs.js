@@ -4,14 +4,12 @@ import { Checkbox } from "./ui/checkbox";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 import { RadioGroup } from "./ui/radio-group";
-import { Select } from "./ui/select";
-import { ChevronRight } from "lucide-react";
 import { Slider } from "./ui/slider";
 import { Today } from "./Today";
 import { Yesterday } from "./Yesterday";
 import { Lcard } from "./Lcard";
 import { Day } from "@/components/Day";
-import { AddExpense } from "./AddExpense";
+import { AddRecord } from "./AddRecord";
 
 export const Contentjs = () => {
   const categories = [
@@ -64,7 +62,7 @@ export const Contentjs = () => {
     <div className="w-full h-100vh bg-gray-200">
       <div className="w-fit m-auto flex gap-4 p-6">
         <div className="py-6 px-4 bg-slate-50 border border-[#d0d2d7] grid gap-y-6 rounded-xl">
-          <AddExpense/>
+          <AddRecord />
           <div>
             <Input placeholder="Search"></Input>
           </div>

@@ -26,7 +26,11 @@ const Signup = () => {
             <Input placeholder="Email" className="bg-[#F3F4F6]" />
             <Input placeholder="Password" className="bg-[#F3F4F6]" />
             <Input placeholder="Re-assword" className="bg-[#F3F4F6]"></Input>
-            <Button className="rounded-2xl bg-[#0166FF]">Sign up</Button>
+            <Link href={`/loading`}>
+              <Button className="w-full rounded-2xl bg-[#0166FF]">
+                Sign up
+              </Button>
+            </Link>
           </div>
           <div className="flex justify-center gap-3">
             <p className="font-normal text-base	">Already have account?</p>
