@@ -6,6 +6,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Label } from "./ui/label";
+import { AddCategory } from "./AddCategory";
+
 export const SeTrigger = ({ text }) => {
   return (
     <div>
@@ -14,12 +16,7 @@ export const SeTrigger = ({ text }) => {
         <SelectTrigger id="framework" className="bg-[#F9FAFB]">
           <SelectValue placeholder={text} />
         </SelectTrigger>
-        <SelectContent position="popper">
-          <SelectItem value="next">Next.js</SelectItem>
-          <SelectItem value="sveltekit">SvelteKit</SelectItem>
-          <SelectItem value="astro">Astro</SelectItem>
-          <SelectItem value="nuxt">Nuxt.js</SelectItem>
-        </SelectContent>
+        <AddCategory />
       </Select>
     </div>
   );

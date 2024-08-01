@@ -21,9 +21,11 @@ import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import { SeTrigger } from "./SeTrigger";
 import { Textarea } from "./ui/textarea";
+import { useState } from "react";
 
 
 export const AddRecordPopUp = ({ value }) => {
+  const [AddCategory, setAddCategory] = useState()
   return (
     <TabsContent value={value}>
       <Card>
@@ -35,6 +37,7 @@ export const AddRecordPopUp = ({ value }) => {
             </div>
             <SeTrigger
               text={value === "Income" ? "Find or choose category" : "Choose"}
+              value={value === "AddCategory" ? "Income" : "choose"}
             />
             <div className="flex gap-3">
               <div className="flex-1 grid gap-1">
